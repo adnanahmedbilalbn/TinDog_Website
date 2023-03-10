@@ -1,0 +1,179 @@
+/* Title Section */
+
+#title{
+    background-color: #ff4c68;
+}
+.h1{
+    size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bolder;
+    padding: 2rem 2rem 0 0;
+}
+
+
+/* Title Image */
+
+.Dog{
+    transform: rotate(25deg);
+    height: 50rem;
+}
+.Dog-align{
+    position: absolute;
+    right: 1px;
+}
+
+
+/* Navbar Section */
+
+
+.container-fluid{
+    padding: 5% 5% 30%;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.btn{
+    margin-top: 20px;
+}
+.nav-item{
+    margin: 0 1.2rem 0 1.2rem;
+    font-weight: bold;    
+}
+
+
+/* Features section */
+
+
+
+#features{
+    position: relative;
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem ;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+
+/* Testimonial Carousel Setion */
+
+
+
+#testimonials{
+    text-align: center;
+    padding: 3% 15%;
+    background-color: #ef8172;
+    font-weight: bolder;
+    color: white;
+}
+.testimonial-text{
+    margin: 1rem 17rem 1rem 17rem;
+    font-weight: bolder;
+    color: white;
+}
+
+/* Press Section */
+
+
+.img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 5rem 30rem 0 30rem;
+    
+}
+#press{
+    background-color: #ef8172;
+    padding: 7% 15%;
+}
+.press-img{
+    width: 23%;
+}
+.controlprev{
+    position: absolute;
+    margin-right: 10rem;
+}
+.controlnext{
+    position: absolute;
+    margin-left: 10rem;
+}
+
+
+/* Pricing_Section */
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+
+/* Download-Section */
+
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    font-weight: bolder;
+    padding: 10rem;
+}
+
+
+/* Footer-Section */
+
+#footer{
+    text-align: center;
+    padding: 10rem;
+}
+.footer-btn{
+    margin: 1rem;
+}
+.icon-2:hover{
+    color: rgb(84, 84, 245);
+}
+.icon-3:hover{
+    color: #ff4c68;
+}
+.copyright{
+    padding: 20px;
+    font-weight: bolder;
+}
+.icon-2{
+    padding-right: 1rem;
+}
+.icon-3{
+    padding-right: 1rem;
+}
+.Contact{
+    font-weight: bolder;
+    padding-bottom: 100px;
+}
+.font-Montserrat{
+    font-family: 'Montserrat';
+}
+
+
+/* Media-Query-Section */
+
+@media (max-width:1010px) {
+#title{
+    text-align: center;
+}
+.Dog{
+    transform: rotate(0);
+}
+.Dog-align{
+    position: static;
+}
+}
